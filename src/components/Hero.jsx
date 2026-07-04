@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase, FolderGit2, Award, GraduationCap, Calendar, ArrowRight, Download, Mail } from 'lucide-react';
-import resumePdf from '../assets/Resume1.pdf';
 
 const stats = [
   { label: 'Internships', value: '3+', icon: Briefcase, color: 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/50' },
@@ -84,8 +83,9 @@ export default function Hero() {
                 <Mail size={16} />
               </a>
               <a
-                href={resumePdf}
-                download="Sanjay_Thomas_Resume.pdf"
+                href="https://flowcv.com/resume/r628cvna30b2"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-emerald-600/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20 hover:bg-emerald-600/20 font-semibold hover:-translate-y-0.5 transition-all duration-200"
               >
                 Download Resume
